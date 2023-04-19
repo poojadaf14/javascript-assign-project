@@ -7,6 +7,27 @@ const z = 'pooja';
 //data types
 
 
-//1. numbers
-let num= [1,2,3,5,6,7,8];
-console.log(num);
+// 1. numbers
+var num= 7;
+let num1 = 10;
+console.log(num1);
+
+//2. string
+
+const names= ["gulab", "mogra", "chameli", "lotus"];
+console.log(names);
+
+//3. boolean
+
+var loginfromgoggle = true;
+var loginfromfacebook = false;
+console.log(loginfromfacebook);
+
+//4.null- means thing stored inside or null
+
+//5. undefined
+
+var paymentmode;
+
+console.log(paymentmode);
+paymentmode = "credit card";
