@@ -25,6 +25,9 @@ console.log(loginfromfacebook);
 
 //4.null- means thing stored inside or null
 
+let random = null;
+console.log(random);
+
 //5. undefined
 
 var paymentmode;
