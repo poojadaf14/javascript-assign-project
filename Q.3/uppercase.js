@@ -19,3 +19,5 @@ for (const size of fruit) {
 }
 
 console.log(lowefruit);
+
+
