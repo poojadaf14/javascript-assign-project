@@ -7,6 +7,7 @@
     <title>BMI</title>
 </head>
 <body style="background-color: black;">
+    <p>The BMI for both men and women.</p>
     <h1 id="h1" style="text-align: center; color: orange; border: 2px;"></h1>
     <script>
         
@@ -24,9 +25,9 @@
                document.getElementById("h1").innerText= "underweight";
       
             else if (bmi >= 18.5 && bmi < 24.9)
-            document.getElementById("h1").innerText= "Healthy";
+            document.getElementById("h1").innerText= "Normal Weight";
       
-            else if (bmi >= 24.9 && bmi < 30)
+            else if (bmi >= 25 && bmi < 29.9)
             document.getElementById("h1").innerText=  "overweight";
       
             else if (bmi >= 30)
