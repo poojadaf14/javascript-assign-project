@@ -10,13 +10,16 @@
 
  
     <script>
-    //  let n = prompt("enter a number: ");
-    let n = 8;
-     
-     let range = 20;
-     for (let i = 1; i <= range; ++i)
-         console.log(n + " * " + i +
-             " = " + n * i);
-    </script>
+      var num=prompt("Enter the number");
+    var i=0;
+    document.write('<table border="5" cellspacing="5"');
+    for(i=1;i<=20;i++)
+    {
+      document.write("<tr><td>"+ num +"x" + i+ "=" +num*i + "</td></tr>");
+    }
+    document.write("</table>");
+  </script>
+
+    
 </body>
 </html>
